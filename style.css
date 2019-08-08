@@ -1,6 +1,7 @@
-.container{
+.container-fluid{
+    width: 100%;
     border: 2px solid red;
-    height: 500px;
+    height: 550px;
     background-image: url(./imagen-fondo.jpg);
     background-size: cover;
 }

@@ -5,5 +5,20 @@
     border:2px solid yellow;
 }*/
  .row .cardInfo{
-    border:2px solid lightsalmon;
+     position: relative;
+    /*border:2px solid lightsalmon;*/
+    top: -40px;
+   border-color: transparent;
+}
+
+.cardInfo .about{
+   /* border:2px solid yellowgreen;*/
+    position: relative;
+    top: -55px;
+}
+p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.62em;
+    color:#2c2c2c;
 }

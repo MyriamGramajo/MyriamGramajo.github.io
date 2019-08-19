@@ -22,3 +22,6 @@ p{
     line-height: 1.62em;
     color:#2c2c2c;
 }
+.progress .progress-bar{
+    background-color: cadetblue; 
+}

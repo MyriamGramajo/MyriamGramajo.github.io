@@ -1,7 +1,41 @@
 .container-fluid{
     width: 100%;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     height: 550px;
     background-image: url(./imagen-fondo.jpg);
     background-size: cover;
+    position: relative;
+/*.container .row{
+    border:2px solid red;
+}
+.container {
+    border:2px solid yellow;
+}*/
+ .row .cardInfo{
+     position: relative;
+    /*border:2px solid lightsalmon;*/
+    top: -40px;
+   border-color: transparent;
+}
+
+.cardInfo .about{
+   /* border:2px solid yellowgreen;*/
+    position: relative;
+    top: -55px;
+}
+p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.62em;
+    color:#2c2c2c;
+}
+.progress .progress-bar{
+    background-color: cadetblue; 
+}
+
+.container-fluid .contenedorfoto{
+    border: 2px solid red;
+ display: flex;
+ align-items: center;
+   
 }

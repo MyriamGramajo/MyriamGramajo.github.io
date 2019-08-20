@@ -18,10 +18,11 @@
    border-color: transparent;
 }
 
-.cardInfo .about{
+.about{
    /* border:2px solid yellowgreen;*/
     position: relative;
     top: -55px;
+    border-color: transparent;
 }
 p{
     font-size: 14px;
@@ -33,9 +34,14 @@ p{
     background-color: cadetblue; 
 }
 
-.container-fluid .contenedorfoto{
-    border: 2px solid red;
- display: flex;
- align-items: center;
+
    
+}
+.contenedorfoto .foto img{
+    border-radius: 50%;
+}
+.navbar   {
+      display: flex;
+    justify-content: flex-end;
+
 }

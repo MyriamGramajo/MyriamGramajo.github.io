@@ -11,22 +11,34 @@
 .container {
     border:2px solid yellow;
 }*/
-<<<<<<< HEAD
+}
  .row .cardInfo{
      position: relative;
-    /*border:2px solid lightsalmon;*/
+    border:2px solid lightsalmon;
     top: -40px;
    border-color: transparent;
 }
 
-.about{
-   /* border:2px solid yellowgreen;*/
+.cardInfoa {
+    border:2px solid yellowgreen;
     position: relative;
     top: -55px;
     border-color: transparent;
+    background-color: aqua;
 }
+.infobasica{
+    border:2px solid yellowgreen;
+    position: relative;
+    top: -55px;
+    border-color: transparent;
+    background-color: aqua;
+}
+
+
+
+
 p{
-    font-size: 14px;
+    font-size: 17px;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.62em;
     color:#2c2c2c;
@@ -46,5 +58,3 @@ p{
     justify-content: flex-end;
 
 }
-=======
->>>>>>> footer
